@@ -4,7 +4,7 @@
     "url": "https://github.com/JV-conseil/jekyll-theme-read-the-docs/issues"
   },
   "dependencies": {
-    "@primer/css": "15.2.0",
+    "@primer/css": "21.3.4",
     "dompurify": "^3.1.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",

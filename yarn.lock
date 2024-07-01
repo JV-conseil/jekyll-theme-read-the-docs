@@ -1656,6 +1656,87 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@github/auto-check-element@npm:^5.2.0":
+  version: 5.4.2
+  resolution: "@github/auto-check-element@npm:5.4.2"
+  dependencies:
+    "@github/mini-throttle": "npm:^2.1.0"
+  checksum: 10c0/d35a27c7e1c1c571d40cb54be0e59703a795fa34c6ff402c9711cb6d1c7110eed518107791b0ba2aab057aab0a732e96ab65e14b2e433e9690ffe001e5e0cf12
+  languageName: node
+  linkType: hard
+
+"@github/auto-complete-element@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "@github/auto-complete-element@npm:3.6.2"
+  dependencies:
+    "@github/combobox-nav": "npm:^2.1.7"
+  checksum: 10c0/5b769169cdedb95840cf303ad02016ebc8c367293761004e08766ac547acf01528e78bef3a5e3cef48cfee98cea1bd0f63833d7f1b053f53013f910e2c6efe0d
+  languageName: node
+  linkType: hard
+
+"@github/catalyst@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "@github/catalyst@npm:1.6.0"
+  checksum: 10c0/e21b72959987cb54339d30aea12f14fa72d5d8d7f04a931fccd09c9fc9c36fb113b7846e2cbdc24dc20677ea247dbe7dceca2ca768029bd6c7a2fa25a82d453b
+  languageName: node
+  linkType: hard
+
+"@github/clipboard-copy-element@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@github/clipboard-copy-element@npm:1.3.0"
+  checksum: 10c0/96b08347570ac5bb8aca6fac99b11f4766e54a61e10a79a892f3568d0776fd5f6ea33bbbefbfbf74f489b487f8b0492da3368569ec8119648995d24031969986
+  languageName: node
+  linkType: hard
+
+"@github/combobox-nav@npm:^2.1.7":
+  version: 2.3.1
+  resolution: "@github/combobox-nav@npm:2.3.1"
+  checksum: 10c0/1718fd92fc30c95588276ef269c628a01109f2af0c2059a6b5f6842698d8522b300c86751066746a4e03ecc1943d7bfa6f11397d7f6c796a67f29cf6aa37d506
+  languageName: node
+  linkType: hard
+
+"@github/details-menu-element@npm:^1.0.12":
+  version: 1.0.13
+  resolution: "@github/details-menu-element@npm:1.0.13"
+  checksum: 10c0/defef5904b69c6e9a00e19f077c44ac758570e0c66c36459d024fa589a2cbd10e0e8c3a04870fda799a1f60ea314955fdf894f9505f56c2dfde7534dcb13a928
+  languageName: node
+  linkType: hard
+
+"@github/image-crop-element@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "@github/image-crop-element@npm:5.0.0"
+  checksum: 10c0/06930cbd1a1f0aa7207d6e5750c670649fa1dff876204e1a4dff5d3cd915b2af0ad4d50752b16533804fb32933fb757484e63ef2b4c62642d16abd70b7ce7c18
+  languageName: node
+  linkType: hard
+
+"@github/include-fragment-element@npm:^6.1.1":
+  version: 6.3.0
+  resolution: "@github/include-fragment-element@npm:6.3.0"
+  checksum: 10c0/ee8e9c7e1905949efcca95d95013a39a35a1ef4d43ec7515faeb16cd2cd58ff67dabd197b4bf3c6c420a76b7821f14c92c3a6730bbc415288bfb1d649a59a5e7
+  languageName: node
+  linkType: hard
+
+"@github/mini-throttle@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "@github/mini-throttle@npm:2.1.1"
+  checksum: 10c0/a2861c204fb9342084d9710c98c5808e33bc796ac55b6b9796d085605e97e207ebb81fd60f50a9cf63f879df13a23eea504ce6c7185fd378f474a12709f2e59f
+  languageName: node
+  linkType: hard
+
+"@github/relative-time-element@npm:^4.0.0":
+  version: 4.4.2
+  resolution: "@github/relative-time-element@npm:4.4.2"
+  checksum: 10c0/05ce6970df8f8570097f0ecc8f344c75e4114f69fe8ef48a3fbf10dc53e2415e173794eee26bc730776b7db717b774717d641fa03490e9ca30db88abc0014351
+  languageName: node
+  linkType: hard
+
+"@github/tab-container-element@npm:^3.1.2":
+  version: 3.4.0
+  resolution: "@github/tab-container-element@npm:3.4.0"
+  checksum: 10c0/42aa4ada9cef1d8abe116f0b44a370c0c2da573e41090159126e87ef6534feadf33c6924540680245e4c3ddde018d382cf89cfff0c40748dc57e2f38a56392ab
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/module-importer@npm:^1.0.1":
   version: 1.0.1
   resolution: "@humanwhocodes/module-importer@npm:1.0.1"
@@ -1785,6 +1866,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oddbird/popover-polyfill@npm:^0.4.0":
+  version: 0.4.3
+  resolution: "@oddbird/popover-polyfill@npm:0.4.3"
+  checksum: 10c0/262c6d35cda575bfc67a1b7e8ba612a1d19474f8440b297e94c69b34f9c5baa8a661f82be71d057bec42c3d282a5389bebe71d4e8aaac2546e482b12c9225abc
+  languageName: node
+  linkType: hard
+
 "@paulirish/trace_engine@npm:^0.0.19":
   version: 0.0.19
   resolution: "@paulirish/trace_engine@npm:0.0.19"
@@ -1799,23 +1887,46 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/css@npm:15.2.0":
-  version: 15.2.0
-  resolution: "@primer/css@npm:15.2.0"
-  dependencies:
-    "@primer/octicons": "npm:^9.1.1"
-  bin:
-    primer-migrate: bin/primer-migrate
-  checksum: 10c0/b205efc59dc9f889eee9129719eb3aba05d181c7e367dbaf30fd21f90acb208ba49e56d3e65189bd36c259b0254e068e1c61b45235dfd245cdac55ca169b5e94
+"@primer/behaviors@npm:^1.3.4":
+  version: 1.6.0
+  resolution: "@primer/behaviors@npm:1.6.0"
+  checksum: 10c0/585539901f92040ba7dfcbf43545d9e3620483895ba4456ae9c084340e754486342097c480dc11c12316de8e61534c85a84a75261162f9546cc37cee7e220f7d
   languageName: node
   linkType: hard
 
-"@primer/octicons@npm:^9.1.1":
-  version: 9.6.0
-  resolution: "@primer/octicons@npm:9.6.0"
+"@primer/css@npm:21.3.4":
+  version: 21.3.4
+  resolution: "@primer/css@npm:21.3.4"
   dependencies:
-    object-assign: "npm:^4.1.1"
-  checksum: 10c0/e2812df61b7c1edb96593c07d276348a0c8812d1e0733c6fc5a63af380affaf50fa7253e6048c859f223769925b78b43bfa2f165364512e0b3ebd82e8b7ba7d4
+    "@primer/primitives": "npm:^8.2.0"
+    "@primer/view-components": "npm:^0.26.1"
+  checksum: 10c0/2217c52949e751e8d57de90bdd5c4daf354ba133b2dcb74c9ae6f1bd6f202182416a7409958ca6198b9ca888d064feee6f3f7ee1cb3592536e0901e0e6e0a68e
+  languageName: node
+  linkType: hard
+
+"@primer/primitives@npm:^8.2.0":
+  version: 8.2.3
+  resolution: "@primer/primitives@npm:8.2.3"
+  checksum: 10c0/3231e267be201745d0922b25ebf7ff58586b9006c38d222d6fdd904162c814a93c7f4f583384a6b6132c3d69a71dec182543ead3ea7639067b79ac7967e3c802
+  languageName: node
+  linkType: hard
+
+"@primer/view-components@npm:^0.26.1":
+  version: 0.26.1
+  resolution: "@primer/view-components@npm:0.26.1"
+  dependencies:
+    "@github/auto-check-element": "npm:^5.2.0"
+    "@github/auto-complete-element": "npm:^3.6.2"
+    "@github/catalyst": "npm:^1.6.0"
+    "@github/clipboard-copy-element": "npm:^1.3.0"
+    "@github/details-menu-element": "npm:^1.0.12"
+    "@github/image-crop-element": "npm:^5.0.0"
+    "@github/include-fragment-element": "npm:^6.1.1"
+    "@github/relative-time-element": "npm:^4.0.0"
+    "@github/tab-container-element": "npm:^3.1.2"
+    "@oddbird/popover-polyfill": "npm:^0.4.0"
+    "@primer/behaviors": "npm:^1.3.4"
+  checksum: 10c0/13b2b7962020e53bf0558da3fa46c3f1e33fc8dbf8d32cf6406ab3696417daf72367381471e71c721b5b8c87eb1092721f018969a9d7ba0dc011b1b554359a6a
   languageName: node
   linkType: hard
 
@@ -4712,7 +4823,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.24.7"
     "@babel/preset-env": "npm:^7.24.7"
-    "@primer/css": "npm:15.2.0"
+    "@primer/css": "npm:21.3.4"
     babel-loader: "npm:^9.1.3"
     css-loader: "npm:^7.1.2"
     depcheck: "npm:^1.4.7"
@@ -5777,13 +5888,6 @@ __metadata:
   version: 3.0.0
   resolution: "normalize-path@npm:3.0.0"
   checksum: 10c0/e008c8142bcc335b5e38cf0d63cfd39d6cf2d97480af9abdbe9a439221fd4d749763bab492a8ee708ce7a194bb00c9da6d0a115018672310850489137b3da046
-  languageName: node
-  linkType: hard
-
-"object-assign@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "object-assign@npm:4.1.1"
-  checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
   languageName: node
   linkType: hard
 
