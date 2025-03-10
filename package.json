@@ -28,7 +28,7 @@
     "lighthouse": "^12.3.0",
     "mini-css-extract-plugin": "^2.9.2",
     "prettier": "^3.4.2",
-    "sass": "^1.83.0",
+    "sass": "^1.85.1",
     "sass-loader": "^16.0.4",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
