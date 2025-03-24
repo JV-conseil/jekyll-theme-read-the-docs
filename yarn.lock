@@ -5046,7 +5046,7 @@ __metadata:
     mini-css-extract-plugin: "npm:^2.9.2"
     prettier: "npm:^3.4.2"
     roboto-fontface: "npm:^0.10.0"
-    sass: "npm:^1.83.0"
+    sass: "npm:^1.86.0"
     sass-loader: "npm:^16.0.4"
     scss: "npm:^0.2.4"
     webpack: "npm:^5.97.1"
@@ -6736,9 +6736,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.83.0":
-  version: 1.83.0
-  resolution: "sass@npm:1.83.0"
+"sass@npm:^1.86.0":
+  version: 1.86.0
+  resolution: "sass@npm:1.86.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -6749,7 +6749,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/4415361229879a9041d77c953da85482e89032aa4321ba13250a9987d39c80fac6c88af3777f2a2d76a4e8b0c8afbd21c1970fdbe84e0b3ec25fb26741f92beb
+  checksum: 10c0/921caea1fd8a450d4a986e5570ce13c4ca7b2a57da390811add3d2087ad8f46f53b34652ddcb237d8bdaad49c560b8d6eee130c733c787d058bc5a71a914c139
   languageName: node
   linkType: hard
 
