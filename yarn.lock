@@ -5100,7 +5100,6 @@ __metadata:
     scss: "npm:^0.2.4"
     webpack: "npm:^5.99.6"
     webpack-cli: "npm:^6.0.1"
-    ws: "npm:^8.18.1"
   languageName: unknown
   linkType: soft
 
