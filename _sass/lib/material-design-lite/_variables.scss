@@ -459,7 +459,8 @@ $checkbox-inner-margin: 2px !default;
 $checkbox-padding: 8px !default;
 $checkbox-top-offset: (
     $checkbox-label-height - $checkbox-button-size - $checkbox-inner-margin
-  ) / 2;
+  ) /
+  2;
 $checkbox-ripple-size: $checkbox-label-height * 1.5;
 
 /* CARD */
