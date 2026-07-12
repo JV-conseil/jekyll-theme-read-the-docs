@@ -2,7 +2,9 @@
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/JV-conseil/jekyll-theme-read-the-docs/badge)](https://www.jsdelivr.com/package/gh/JV-conseil/jekyll-theme-read-the-docs)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=JV-conseil.jekyll-theme-read-the-docs)
-[![CodeQL Advanced](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml/badge.svg?branch=dev)](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml)
+[![pages-build-deployment](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/pages/pages-build-deployment)
+[![CodeQL Advanced](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml/badge.svg)](https://github.com/JV-conseil/jekyll-theme-read-the-docs/actions/workflows/codeql.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/jv-conseil/jekyll-theme-read-the-docs/badge)](https://www.codefactor.io/repository/github/jv-conseil/jekyll-theme-read-the-docs)
 [![Umami - GDPR compliant alternative to Google Analytics](https://img.shields.io/badge/analytics-umami-green)](https://analytics.umami.is/share/M19mr5L7jVhHuFnb/jv-conseil.github.io "Umami - GDPR compliant alternative to Google Analytics")
 [![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
 [![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil "Become a sponsor to JV-conseil")

@@ -48,7 +48,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Development
 group :development do
-  gem "faraday-retry", "~> 2.0"
+  gem "faraday-retry"
   # gem "webrick", "~> 1.8"
   # Troubleshooting Jekyll errors
   # See <https://primer.style/css/getting-started#troubleshooting-jekyll-errors>
@@ -58,4 +58,4 @@ end
 
 # csv was loaded from the standard library, but will no longer be part of the default gems since Ruby 3.4.0.
 # Add csv to your Gemfile or gemspec. Also contact author of jekyll-3.9.5 to add csv into its gemspec.
-gem "csv", "~> 3.3"
+gem "csv"
