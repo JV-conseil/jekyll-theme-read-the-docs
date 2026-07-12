@@ -24,11 +24,21 @@
 }
 
 _jvcl_::jekyll_serve() {
+  local _args
+  local -a _cmd=()
+
   _jvcl_::h1 "Launching Jekyll..."
-  bundle exec jekyll clean --config "_config-dev.yml"
-  bundle exec jekyll doctor --config "_config-dev.yml"
-  open -na /Applications/Firefox.app --args '--private-window' 'http://localhost:4000/'
-  bundle exec jekyll serve --config "_config-dev.yml" --livereload --trace
+
+  for _arg in "clean" "doctor" "serve"; do
+    _cmd=(bundle exec jekyll "${_arg}" --config _config-dev.yml)
+    if [ "${_arg}" == "serve" ]; then
+      _cmd+=(--livereload --trace)
+      # open -na /Applications/Firefox.app --args '--private-window' 'http://localhost:4000/'
+      open -na "/Applications/Brave Browser.app" --args '--incognito' 'http://localhost:4000/'
+    fi
+    # printf "DEBUG - _jvcl_::jekyll_serve - %s\n" "${_cmd[*]}"
+    "${_cmd[@]}"
+  done
 }
 
 _jvcl_::github_pages() {

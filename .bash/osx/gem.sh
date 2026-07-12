@@ -26,10 +26,17 @@ _jvcl_::gem_update() {
 }
 
 _jvcl_::bundle_update() {
+  local -a _cmd
   local _opt
-  rm -vrf "./Gemfile.lock" || printf "Oops command failed: rm -vrf ./Gemfile.lock"
+
+  rm -vrf "./Gemfile.lock" || printf "ERROR - _jvcl_::bundle_update - command failed: rm -vrf ./Gemfile.lock"
+
   for _opt in "check" "doctor" "install" "update" "lock"; do
-    bundle "${_opt}" --verbose || printf "Oops command failed: bundle %s --verbose" "${_opt}"
+    _cmd=(bundle "${_opt}" --verbose)
+    [[ "${_opt}" == "update" ]] && _cmd+=(--all)
+    # IFS=' ' printf "DEBUG - _jvcl_::bundle_update - %s\n" "${_cmd[*]}"
+    "${_cmd[@]}" ||
+      printf "ERROR - _jvcl_::bundle_update - bundle %s --verbose\n" "${_opt}"
   done
 }
 
