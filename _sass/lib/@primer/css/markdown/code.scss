@@ -12,14 +12,10 @@
     background-color: rgba($black, 0.05);
     border-radius: $border-radius;
 
-    br {
-      display: none;
-    }
+    br { display: none; }
   }
 
-  del code {
-    text-decoration: inherit;
-  }
+  del code { text-decoration: inherit; }
 
   pre {
     word-wrap: normal;

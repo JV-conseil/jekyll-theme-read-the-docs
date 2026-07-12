@@ -20,9 +20,7 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h1-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h1-size !important;
-  }
+  @include breakpoint(md) { font-size: $h1-size !important; }
 }
 
 /* Set the font size to 22px */
@@ -30,9 +28,7 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h2-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h2-size !important;
-  }
+  @include breakpoint(md) { font-size: $h2-size !important; }
 }
 
 /* Set the font size to 18px */
@@ -40,9 +36,7 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h3-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h3-size !important;
-  }
+  @include breakpoint(md) { font-size: $h3-size !important; }
 }
 
 /* Set the font size to #{$h4-size} */
@@ -51,16 +45,12 @@
 }
 
 /* Set the font size to #{$h5-size} */
-.h5 {
-  font-size: $h5-size !important;
-}
+.h5 { font-size: $h5-size !important; }
 
 // Does not include color property like typography base
 // styles, color should be applied with color utilities.
 /* Set the font size to #{$h6-size} */
-.h6 {
-  font-size: $h6-size !important;
-}
+.h6 { font-size: $h6-size !important; }
 
 // Heading utilities
 .h1,
@@ -68,9 +58,7 @@
 .h3,
 .h4,
 .h5,
-.h6 {
-  font-weight: $font-weight-bold !important;
-}
+.h6 { font-weight: $font-weight-bold !important; }
 
 // Type utilities that match type sale
 /* Set the font size to 26px */
@@ -78,9 +66,7 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h1-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h1-size !important;
-  }
+  @include breakpoint(md) { font-size: $h1-size !important; }
 }
 
 /* Set the font size to 22px */
@@ -88,9 +74,7 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h2-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h2-size !important;
-  }
+  @include breakpoint(md) { font-size: $h2-size !important; }
 }
 
 /* Set the font size to 18px */
@@ -98,28 +82,20 @@
   // stylelint-disable-next-line primer/typography
   font-size: $h3-size-mobile !important;
 
-  @include breakpoint(md) {
-    font-size: $h3-size !important;
-  }
+  @include breakpoint(md) { font-size: $h3-size !important; }
 }
 
 /* Set the font size to #{$h4-size} */
 .f4 {
   font-size: $h4-size !important;
 
-  @include breakpoint(md) {
-    font-size: $h4-size !important;
-  }
+  @include breakpoint(md) { font-size: $h4-size !important; }
 }
 
 /* Set the font size to #{$h5-size} */
-.f5 {
-  font-size: $h5-size !important;
-}
+.f5 { font-size: $h5-size !important; }
 /* Set the font size to #{$h6-size} */
-.f6 {
-  font-size: $h6-size !important;
-}
+.f6 { font-size: $h6-size !important; }
 
 // Type utils with light weight that match type scale
 /* Set the font size to 40px and weight to light */
@@ -128,9 +104,7 @@
   font-size: $h00-size-mobile !important;
   font-weight: $font-weight-light !important;
 
-  @include breakpoint(md) {
-    font-size: $h00-size !important;
-  }
+  @include breakpoint(md) { font-size: $h00-size !important; }
 }
 
 /* Set the font size to 32px and weight to light */
@@ -139,9 +113,7 @@
   font-size: $h0-size-mobile !important;
   font-weight: $font-weight-light !important;
 
-  @include breakpoint(md) {
-    font-size: $h0-size !important;
-  }
+  @include breakpoint(md) { font-size: $h0-size !important; }
 }
 
 /* Set the font size to 26px and weight to light */
@@ -150,9 +122,7 @@
   font-size: $h1-size-mobile !important;
   font-weight: $font-weight-light !important;
 
-  @include breakpoint(md) {
-    font-size: $h1-size !important;
-  }
+  @include breakpoint(md) { font-size: $h1-size !important; }
 }
 
 /* Set the font size to 22px and weight to light */
@@ -161,9 +131,7 @@
   font-size: $h2-size-mobile !important;
   font-weight: $font-weight-light !important;
 
-  @include breakpoint(md) {
-    font-size: $h2-size !important;
-  }
+  @include breakpoint(md) { font-size: $h2-size !important; }
 }
 
 // Same size and weight as .lead but without color property
@@ -173,16 +141,12 @@
   font-size: $h3-size-mobile !important;
   font-weight: $font-weight-light !important;
 
-  @include breakpoint(md) {
-    font-size: $h3-size !important;
-  }
+  @include breakpoint(md) { font-size: $h3-size !important; }
 }
 
 // Smallest text size
 /* Set the font size to ${#h6-size} */
-.text-small {
-  font-size: $h6-size !important;
-} // 12px
+.text-small { font-size: $h6-size !important; } // 12px
 
 /* Large leading paragraphs */
 .lead {
@@ -201,21 +165,13 @@
 @each $breakpoint, $variant in $responsive-variants {
   @include breakpoint($breakpoint) {
     /* Set the line height to ultra condensed */
-    .lh#{$variant}-condensed-ultra {
-      line-height: $lh-condensed-ultra !important;
-    }
+    .lh#{$variant}-condensed-ultra { line-height: $lh-condensed-ultra !important; }
     /* Set the line height to condensed */
-    .lh#{$variant}-condensed {
-      line-height: $lh-condensed !important;
-    }
+    .lh#{$variant}-condensed { line-height: $lh-condensed !important; }
     /* Set the line height to default */
-    .lh#{$variant}-default {
-      line-height: $lh-default !important;
-    }
+    .lh#{$variant}-default { line-height: $lh-default !important; }
     /* Set the line height to zero */
-    .lh#{$variant}-0 {
-      line-height: 0 !important;
-    }
+    .lh#{$variant}-0 { line-height: 0 !important; }
   }
 }
 
@@ -224,53 +180,31 @@
 @each $breakpoint, $variant in $responsive-variants {
   @include breakpoint($breakpoint) {
     /* Text align to the right */
-    .text#{$variant}-right {
-      text-align: right !important;
-    }
+    .text#{$variant}-right { text-align: right !important; }
     /* Text align to the left */
-    .text#{$variant}-left {
-      text-align: left !important;
-    }
+    .text#{$variant}-left { text-align: left !important; }
     /* Text align to the center */
-    .text#{$variant}-center {
-      text-align: center !important;
-    }
+    .text#{$variant}-center { text-align: center !important; }
   }
 }
 
 // Text styles
 /* Set the font weight to normal */
-.text-normal {
-  font-weight: $font-weight-normal !important;
-}
+.text-normal { font-weight: $font-weight-normal !important; }
 /* Set the font weight to bold */
-.text-bold {
-  font-weight: $font-weight-bold !important;
-}
+.text-bold { font-weight: $font-weight-bold !important;}
 /* Set the font to italic */
-.text-italic {
-  font-style: italic !important;
-}
+.text-italic { font-style: italic !important; }
 /* Make text uppercase */
-.text-uppercase {
-  text-transform: uppercase !important;
-}
+.text-uppercase { text-transform: uppercase !important; }
 /* Underline text */
-.text-underline {
-  text-decoration: underline !important;
-}
+.text-underline { text-decoration: underline !important; }
 /* Don't underline text */
-.no-underline {
-  text-decoration: none !important;
-}
+.no-underline { text-decoration: none !important; }
 /* Don't wrap white space */
-.no-wrap {
-  white-space: nowrap !important;
-}
+.no-wrap { white-space: nowrap !important; }
 /* Normal white space */
-.ws-normal {
-  white-space: normal !important;
-}
+.ws-normal { white-space: normal !important; }
 
 /* Force long "words" to wrap if they exceed the width of the container */
 .break-word {
@@ -290,9 +224,7 @@
  *
  * see: https://developer.mozilla.org/en-US/docs/Web/CSS/word-break#Values
  */
-.wb-break-all {
-  word-break: break-all !important;
-}
+.wb-break-all { word-break: break-all !important; }
 
 .text-emphasized {
   font-weight: $font-weight-bold;
@@ -300,16 +232,12 @@
 }
 
 // List styles
-.list-style-none {
-  list-style: none !important;
-}
+.list-style-none { list-style: none !important; }
 
 // Text Shadows
 /* Add a dark text shadow */
 .text-shadow-dark {
-  text-shadow:
-    0 1px 1px rgba($black, 0.25),
-    0 1px 25px rgba($black, 0.75);
+  text-shadow: 0 1px 1px rgba($black, 0.25), 0 1px 25px rgba($black, 0.75);
 }
 /* Add a light text shadow */
 .text-shadow-light {

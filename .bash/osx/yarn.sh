@@ -44,7 +44,7 @@ _jvcl_::_sass_rougify() {
 _jvcl_::update_assets() {
   local _asset _dest _pkg
 
-  for _asset in "dompurify" "jquery"; do
+  for _asset in "dompurify" "jquery" "jquery-migrate"; do
     cp -pvf "./node_modules/${_asset}/dist/"*.min.js* "./assets/lib/"
   done
 

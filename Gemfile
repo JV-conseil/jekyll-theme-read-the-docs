@@ -19,16 +19,18 @@ gem "jekyll", "~> 3.10.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17.0"
-  gem "jekyll-avatar", "~> 0.8.0"
-  gem "jekyll-mentions", "~> 1.6.0"
-  gem "jemoji", "~> 0.13.0"
-  gem "github-pages", "~> 232"
+  gem "jekyll-feed"
+  gem "jekyll-avatar"
+  gem "jekyll-github-metadata"
+  gem "jekyll-gist"
+  gem "jekyll-mentions"
+  gem "jemoji"
+  gem "github-pages"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end

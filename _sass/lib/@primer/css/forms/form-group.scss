@@ -26,17 +26,11 @@
       background-color: $bg-white;
     }
 
-    &.shorter {
-      width: 130px;
-    }
+    &.shorter { width: 130px; }
 
-    &.short {
-      width: 250px;
-    }
+    &.short { width: 250px; }
 
-    &.long {
-      width: 100%;
-    }
+    &.long { width: 100%; }
   }
 
   // Textarea
@@ -87,13 +81,9 @@
     h4 {
       margin: $spacer-1 0 0;
 
-      &.is-error {
-        color: $text-red;
-      }
+      &.is-error { color: $text-red; }
 
-      &.is-success {
-        color: $text-green;
-      }
+      &.is-success { color: $text-green; }
 
       + .note {
         margin-top: 0;

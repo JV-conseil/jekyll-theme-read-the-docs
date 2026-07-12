@@ -21,7 +21,22 @@ module.exports = {
               url: false,
             },
           },
-          "sass-loader",
+          {
+            loader: "sass-loader",
+            options: {
+              sassOptions: {
+                // Silences deprecation warnings from node_modules / dependencies
+                quietDeps: true,
+                // Optional: silence specific deprecation types globally
+                silenceDeprecations: [
+                  "import",
+                  "slash-div",
+                  "global-builtin",
+                  "legacy-js-api",
+                ],
+              },
+            },
+          },
         ],
       },
       {

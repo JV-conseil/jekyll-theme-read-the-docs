@@ -26,6 +26,7 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-gist
 
 exclude:
   - .bash
@@ -63,9 +64,15 @@ sass:
   # implementation: sass-embedded
   # Where sass should look for other scss
   load_paths:
-    - _sass/
-    - node_modules/
+    - _sass
+    - node_modules
+  quiet_deps: true
   # Where you keep your scss files
   sass_dir: assets/css/
+  silent_configuration: true
+  silence_deprecations:
+    - global-builtin
+    - import
+    - color-functions
   style: compressed
   verbose: true
