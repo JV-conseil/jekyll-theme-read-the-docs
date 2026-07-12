@@ -21,7 +21,7 @@
   }
 
   &:disabled,
-  &[aria-disabled="true"] {
+  &[aria-disabled=true] {
     &,
     &:hover {
       // stylelint-disable-next-line primer/colors
@@ -45,7 +45,7 @@
   &:active,
   &:focus,
   &.selected,
-  &[aria-selected="true"],
+  &[aria-selected=true],
   &.zeroclipboard-is-hover,
   &.zeroclipboard-is-active {
     color: $text-blue;
@@ -72,20 +72,16 @@
   background: transparent;
   border: 0;
 
-  &:hover {
-    color: $text-blue;
-  }
+  &:hover { color: $text-blue; }
 
   &.disabled,
-  &[aria-disabled="true"] {
+  &[aria-disabled=true] {
     // stylelint-disable-next-line primer/colors
     color: $gray-400;
     cursor: default;
 
     // stylelint-disable-next-line primer/colors
-    &:hover {
-      color: $gray-400;
-    }
+    &:hover { color: $gray-400; }
   }
 }
 

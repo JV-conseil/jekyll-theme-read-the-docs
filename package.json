@@ -5,8 +5,10 @@
   },
   "dependencies": {
     "@primer/css": "15.2.0",
+    "cross-spawn": "^7.0.6",
     "dompurify": "^3.4.12",
     "font-awesome": "^4.7.0",
+    "glob": "^13.0.6",
     "jquery": "^4.0.0",
     "jquery-migrate": "^4.0.2",
     "jquery.toc": "^0.4.0",

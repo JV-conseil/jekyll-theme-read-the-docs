@@ -1,3 +1,4 @@
+
 // TODO: See if the mixins below can be deprecated
 // Might still be needed for .btn-blue
 // ------------------------------------------------------------------
@@ -19,38 +20,33 @@
     &:hover,
     &.hover {
       background-color: darken($bg2, 3%);
-      background-image: linear-gradient(
-        -180deg,
-        darken($bg, 3%) 0%,
-        darken($bg2, 3%) 90%
-      );
+      background-image: linear-gradient(-180deg, darken($bg, 3%) 0%, darken($bg2, 3%) 90%);
       background-position: 0 -$em-spacer-5;
       border-color: rgba($black, 0.35);
     }
 
     &:active,
     &.selected,
-    &[aria-selected="true"],
+    &[aria-selected=true],
     [open] > & {
       background-color: darken(desaturate($bg, 10%), 6%);
       background-image: none;
-      border-color: rgba(
-        $black,
-        0.35
-      ); // repeat to avoid shift on click-drag off of button
+      border-color: rgba($black, 0.35); // repeat to avoid shift on click-drag off of button
       box-shadow: $btn-active-shadow;
     }
 
     &:disabled,
     &.disabled,
-    &[aria-disabled="true"] {
+    &[aria-disabled=true] {
       color: rgba($color, 0.4);
       background-color: $bg2;
       background-image: none;
       border-color: $border-color-button;
       box-shadow: none;
     }
-  } @else {
+
+  }
+  @else {
     &:focus,
     &.focus {
       box-shadow: 0 0 0 0.2em rgba($bg, 0.4);
@@ -59,18 +55,14 @@
     &:hover,
     &.hover {
       background-color: darken($bg2, 2%);
-      background-image: linear-gradient(
-        -180deg,
-        darken($bg, 2%) 0%,
-        darken($bg2, 2%) 90%
-      );
+      background-image: linear-gradient(-180deg, darken($bg, 2%) 0%, darken($bg2, 2%) 90%);
       background-position: 0 -$em-spacer-5;
       border-color: $black-fade-50;
     }
 
     &:active,
     &.selected,
-    &[aria-selected="true"],
+    &[aria-selected=true],
     [open] > & {
       background-color: darken(mix($bg, $bg2, 50%), 7%);
       background-image: none;
@@ -80,7 +72,7 @@
 
     &:disabled,
     &.disabled,
-    &[aria-disabled="true"] {
+    &[aria-disabled=true] {
       color: rgba($color, 0.75);
       background-color: mix($bg2, $white, 50%);
       background-image: none;
@@ -108,11 +100,7 @@
   &:hover {
     color: $text-white;
     background-color: $color;
-    background-image: linear-gradient(
-      -180deg,
-      lighten($color, 10%) 0%,
-      $color 90%
-    );
+    background-image: linear-gradient(-180deg, lighten($color, 10%) 0%, $color 90%);
     border-color: $black-fade-50;
 
     .Counter {
@@ -122,7 +110,7 @@
 
   &:active,
   &.selected,
-  &[aria-selected="true"],
+  &[aria-selected=true],
   [open] > & {
     color: $text-white;
     background-color: darken($color, 5%);
@@ -133,7 +121,7 @@
 
   &:disabled,
   &.disabled,
-  &[aria-disabled="true"] {
+  &[aria-disabled=true] {
     color: rgba($color, 0.4);
     background-color: $bg2;
     background-image: none;
@@ -155,7 +143,7 @@
   &:hover,
   &:active,
   &.selected,
-  &[aria-selected="true"],
+  &[aria-selected=true],
   [open] > & {
     color: $bg-color;
     background-color: $text-color;
@@ -175,7 +163,7 @@
 
   &:disabled,
   &.disabled,
-  &[aria-disabled="true"] {
+  &[aria-disabled=true] {
     color: $black-fade-30;
     background-color: $bg-white;
     border-color: $black-fade-15;
