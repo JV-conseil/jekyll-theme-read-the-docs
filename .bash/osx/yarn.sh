@@ -48,6 +48,9 @@ _jvcl_::update_assets() {
     cp -pvf "./node_modules/${_asset}/dist/"*.min.js* "./assets/lib/"
   done
 
+  mkdir -p "./assets/lib/mathjax-full/es5"
+  cp -pvf "./node_modules/mathjax-full/es5/tex-svg-full.js" "./assets/lib/mathjax-full/es5/tex-svg-full.js"
+
   for _asset in "lato-font/fonts/lato-bold" \
     "lato-font/fonts/lato-bold-italic" \
     "lato-font/fonts/lato-normal" \

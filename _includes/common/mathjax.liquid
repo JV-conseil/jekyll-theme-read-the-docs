@@ -2,5 +2,8 @@
     <script>
       window.MathJax = {% if site.mathjax %}{{ site.mathjax | jsonify }}{% else %}{}{% endif %};
     </script>
+    <!--
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax/es5/tex-svg-full.js"></script>
+    -->
+    <script id="MathJax-script" async defer src="{{ base }}/assets/lib/mathjax/es5/tex-svg-full.js"></script>
 {%- endif %}
