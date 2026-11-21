@@ -340,4 +340,4 @@ Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
 Run in verbose mode to see all warnings.
  @ ./_sass/theme.scss
 
-webpack 5.113.0 compiled with 8 warnings in 984 ms
+webpack 5.113.0 compiled with 8 warnings in 943 ms
