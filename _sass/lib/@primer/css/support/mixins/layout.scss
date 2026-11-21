@@ -3,9 +3,7 @@
 @mixin breakpoint($breakpoint) {
   @if $breakpoint == "" {
     @content;
-  }
-
-  @else {
+  } @else {
     // Retrieves the value from the key
     $value: map-get($breakpoints, $breakpoint);
 
@@ -28,8 +26,7 @@
 // Retina media query
 
 @mixin retina-media-query {
-  @media
-    only screen and (-webkit-min-device-pixel-ratio: 2),
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min--moz-device-pixel-ratio: 2),
     only screen and (-moz-min-device-pixel-ratio: 2),
     only screen and (-o-min-device-pixel-ratio: 2/1),

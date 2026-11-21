@@ -66,7 +66,9 @@ textarea.form-control {
 .input-contrast {
   background-color: $bg-gray-light;
 
-  &:focus { background-color: $bg-white; }
+  &:focus {
+    background-color: $bg-white;
+  }
 }
 
 // Inputs to be used against dark backgrounds.
@@ -158,8 +160,8 @@ textarea.form-control {
     }
   }
 
-  input[type=checkbox],
-  input[type=radio] {
+  input[type="checkbox"],
+  input[type="radio"] {
     float: left;
     // stylelint-disable-next-line primer/spacing
     margin: 5px 0 0 -20px;
@@ -183,7 +185,8 @@ textarea.form-control {
   &:checked {
     // child of sibling or sibling
     ~ * .form-checkbox-details,
-    ~ .form-checkbox-details { // eslint-disable selector-combinator-space-before
+    ~ .form-checkbox-details {
+      // eslint-disable selector-combinator-space-before
       display: block;
     }
   }
@@ -226,7 +229,9 @@ textarea.form-control {
   }
 
   // stylelint-disable-next-line primer/spacing
-  .form-select { margin-top: 5px; }
+  .form-select {
+    margin-top: 5px;
+  }
 }
 
 // Hide the up/down buttons in <input type="number"> in the login form, the
@@ -270,5 +275,7 @@ input::-webkit-inner-spin-button {
     line-height: $lh-default;
   }
 
-  a { font-weight: $font-weight-bold; }
+  a {
+    font-weight: $font-weight-bold;
+  }
 }

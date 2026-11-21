@@ -1,0 +1,343 @@
+./_sass/lib/material-design-lite/_functions.scss
+./_sass/lib/material-design-lite/_variables.scss
+./_sass/lib/material-design-lite/_color-definitions.scss
+./_sass/lib/material-design-lite/_mixins.scss
+./_sass/lib/material-design-lite
+./_sass/lib/@primer/css/forms/form-validation.scss
+./_sass/lib/@primer/css/forms/index.scss
+./_sass/lib/@primer/css/forms/form-select.scss
+./_sass/lib/@primer/css/forms/README.md
+./_sass/lib/@primer/css/forms/radio-group.scss
+./_sass/lib/@primer/css/forms/form-group.scss
+./_sass/lib/@primer/css/forms/input-group.scss
+./_sass/lib/@primer/css/forms/form-control.scss
+./_sass/lib/@primer/css/forms
+./_sass/lib/@primer/css/buttons/index.scss
+./_sass/lib/@primer/css/buttons/button-group.scss
+./_sass/lib/@primer/css/buttons/button.scss
+./_sass/lib/@primer/css/buttons/README.md
+./_sass/lib/@primer/css/buttons/misc.scss
+./_sass/lib/@primer/css/buttons
+./_sass/lib/@primer/css/markdown/index.scss
+./_sass/lib/@primer/css/markdown/lists.scss
+./_sass/lib/@primer/css/markdown/blob-csv.scss
+./_sass/lib/@primer/css/markdown/README.md
+./_sass/lib/@primer/css/markdown/headings.scss
+./_sass/lib/@primer/css/markdown/images.scss
+./_sass/lib/@primer/css/markdown/tables.scss
+./_sass/lib/@primer/css/markdown/markdown-body.scss
+./_sass/lib/@primer/css/markdown/code.scss
+./_sass/lib/@primer/css/markdown
+./_sass/lib/@primer/css/utilities/borders.scss
+./_sass/lib/@primer/css/utilities/visibility-display.scss
+./_sass/lib/@primer/css/utilities/index.scss
+./_sass/lib/@primer/css/utilities/colors.scss
+./_sass/lib/@primer/css/utilities/flexbox.scss
+./_sass/lib/@primer/css/utilities/details.scss
+./_sass/lib/@primer/css/utilities/layout.scss
+./_sass/lib/@primer/css/utilities/README.md
+./_sass/lib/@primer/css/utilities/typography.scss
+./_sass/lib/@primer/css/utilities/margin.scss
+./_sass/lib/@primer/css/utilities/padding.scss
+./_sass/lib/@primer/css/utilities/box-shadow.scss
+./_sass/lib/@primer/css/utilities/animations.scss
+./_sass/lib/@primer/css/utilities
+./_sass/lib/@primer/css/support/index.scss
+./_sass/lib/@primer/css/support/mixins/buttons.scss
+./_sass/lib/@primer/css/support/mixins/layout.scss
+./_sass/lib/@primer/css/support/mixins/misc.scss
+./_sass/lib/@primer/css/support/mixins/typography.scss
+./_sass/lib/@primer/css/support/mixins
+./_sass/lib/@primer/css/support/README.md
+./_sass/lib/@primer/css/support/variables/colors.scss
+./_sass/lib/@primer/css/support/variables/color-system.scss
+./_sass/lib/@primer/css/support/variables/layout.scss
+./_sass/lib/@primer/css/support/variables/misc.scss
+./_sass/lib/@primer/css/support/variables/typography.scss
+./_sass/lib/@primer/css/support/variables
+./_sass/lib/@primer/css/support
+./_sass/lib/@primer/css/breadcrumb/index.scss
+./_sass/lib/@primer/css/breadcrumb/README.md
+./_sass/lib/@primer/css/breadcrumb/breadcrumb.scss
+./_sass/lib/@primer/css/breadcrumb
+./_sass/lib/@primer/css/loaders/index.scss
+./_sass/lib/@primer/css/loaders/README.md
+./_sass/lib/@primer/css/loaders/loaders.scss
+./_sass/lib/@primer/css/loaders
+./_sass/lib/@primer/css/base/base.scss
+./_sass/lib/@primer/css/base/kbd.scss
+./_sass/lib/@primer/css/base/index.scss
+./_sass/lib/@primer/css/base/README.md
+./_sass/lib/@primer/css/base/typography-base.scss
+./_sass/lib/@primer/css/base/normalize.scss
+./_sass/lib/@primer/css/base
+./_sass/lib/@primer/css
+./_sass/lib/@primer
+./_sass/lib/rouge/github.scss
+./_sass/lib/rouge
+./_sass/lib/font-awesome/_variables.scss
+./_sass/lib/font-awesome/_icons.scss
+./_sass/lib/font-awesome
+./_sass/lib
+./_sass/lib
+_sass/lib/@primer
+_sass/lib/@primer/css
+./node_modules/@primer/css/base -> _sass/lib/@primer/css/base
+./node_modules/@primer/css/base/base.scss -> _sass/lib/@primer/css/base/base.scss
+./node_modules/@primer/css/base/kbd.scss -> _sass/lib/@primer/css/base/kbd.scss
+./node_modules/@primer/css/base/index.scss -> _sass/lib/@primer/css/base/index.scss
+./node_modules/@primer/css/base/README.md -> _sass/lib/@primer/css/base/README.md
+./node_modules/@primer/css/base/typography-base.scss -> _sass/lib/@primer/css/base/typography-base.scss
+./node_modules/@primer/css/base/normalize.scss -> _sass/lib/@primer/css/base/normalize.scss
+./node_modules/@primer/css/breadcrumb -> _sass/lib/@primer/css/breadcrumb
+./node_modules/@primer/css/breadcrumb/index.scss -> _sass/lib/@primer/css/breadcrumb/index.scss
+./node_modules/@primer/css/breadcrumb/README.md -> _sass/lib/@primer/css/breadcrumb/README.md
+./node_modules/@primer/css/breadcrumb/breadcrumb.scss -> _sass/lib/@primer/css/breadcrumb/breadcrumb.scss
+./node_modules/@primer/css/buttons -> _sass/lib/@primer/css/buttons
+./node_modules/@primer/css/buttons/index.scss -> _sass/lib/@primer/css/buttons/index.scss
+./node_modules/@primer/css/buttons/button-group.scss -> _sass/lib/@primer/css/buttons/button-group.scss
+./node_modules/@primer/css/buttons/button.scss -> _sass/lib/@primer/css/buttons/button.scss
+./node_modules/@primer/css/buttons/README.md -> _sass/lib/@primer/css/buttons/README.md
+./node_modules/@primer/css/buttons/misc.scss -> _sass/lib/@primer/css/buttons/misc.scss
+./node_modules/@primer/css/forms -> _sass/lib/@primer/css/forms
+./node_modules/@primer/css/forms/form-validation.scss -> _sass/lib/@primer/css/forms/form-validation.scss
+./node_modules/@primer/css/forms/index.scss -> _sass/lib/@primer/css/forms/index.scss
+./node_modules/@primer/css/forms/form-select.scss -> _sass/lib/@primer/css/forms/form-select.scss
+./node_modules/@primer/css/forms/README.md -> _sass/lib/@primer/css/forms/README.md
+./node_modules/@primer/css/forms/radio-group.scss -> _sass/lib/@primer/css/forms/radio-group.scss
+./node_modules/@primer/css/forms/form-group.scss -> _sass/lib/@primer/css/forms/form-group.scss
+./node_modules/@primer/css/forms/input-group.scss -> _sass/lib/@primer/css/forms/input-group.scss
+./node_modules/@primer/css/forms/form-control.scss -> _sass/lib/@primer/css/forms/form-control.scss
+./node_modules/@primer/css/loaders -> _sass/lib/@primer/css/loaders
+./node_modules/@primer/css/loaders/index.scss -> _sass/lib/@primer/css/loaders/index.scss
+./node_modules/@primer/css/loaders/README.md -> _sass/lib/@primer/css/loaders/README.md
+./node_modules/@primer/css/loaders/loaders.scss -> _sass/lib/@primer/css/loaders/loaders.scss
+./node_modules/@primer/css/markdown -> _sass/lib/@primer/css/markdown
+./node_modules/@primer/css/markdown/index.scss -> _sass/lib/@primer/css/markdown/index.scss
+./node_modules/@primer/css/markdown/lists.scss -> _sass/lib/@primer/css/markdown/lists.scss
+./node_modules/@primer/css/markdown/blob-csv.scss -> _sass/lib/@primer/css/markdown/blob-csv.scss
+./node_modules/@primer/css/markdown/README.md -> _sass/lib/@primer/css/markdown/README.md
+./node_modules/@primer/css/markdown/headings.scss -> _sass/lib/@primer/css/markdown/headings.scss
+./node_modules/@primer/css/markdown/images.scss -> _sass/lib/@primer/css/markdown/images.scss
+./node_modules/@primer/css/markdown/tables.scss -> _sass/lib/@primer/css/markdown/tables.scss
+./node_modules/@primer/css/markdown/markdown-body.scss -> _sass/lib/@primer/css/markdown/markdown-body.scss
+./node_modules/@primer/css/markdown/code.scss -> _sass/lib/@primer/css/markdown/code.scss
+./node_modules/@primer/css/support -> _sass/lib/@primer/css/support
+./node_modules/@primer/css/support/index.scss -> _sass/lib/@primer/css/support/index.scss
+./node_modules/@primer/css/support/mixins -> _sass/lib/@primer/css/support/mixins
+./node_modules/@primer/css/support/mixins/buttons.scss -> _sass/lib/@primer/css/support/mixins/buttons.scss
+./node_modules/@primer/css/support/mixins/layout.scss -> _sass/lib/@primer/css/support/mixins/layout.scss
+./node_modules/@primer/css/support/mixins/misc.scss -> _sass/lib/@primer/css/support/mixins/misc.scss
+./node_modules/@primer/css/support/mixins/typography.scss -> _sass/lib/@primer/css/support/mixins/typography.scss
+./node_modules/@primer/css/support/README.md -> _sass/lib/@primer/css/support/README.md
+./node_modules/@primer/css/support/variables -> _sass/lib/@primer/css/support/variables
+./node_modules/@primer/css/support/variables/colors.scss -> _sass/lib/@primer/css/support/variables/colors.scss
+./node_modules/@primer/css/support/variables/color-system.scss -> _sass/lib/@primer/css/support/variables/color-system.scss
+./node_modules/@primer/css/support/variables/layout.scss -> _sass/lib/@primer/css/support/variables/layout.scss
+./node_modules/@primer/css/support/variables/misc.scss -> _sass/lib/@primer/css/support/variables/misc.scss
+./node_modules/@primer/css/support/variables/typography.scss -> _sass/lib/@primer/css/support/variables/typography.scss
+./node_modules/@primer/css/utilities -> _sass/lib/@primer/css/utilities
+./node_modules/@primer/css/utilities/borders.scss -> _sass/lib/@primer/css/utilities/borders.scss
+./node_modules/@primer/css/utilities/visibility-display.scss -> _sass/lib/@primer/css/utilities/visibility-display.scss
+./node_modules/@primer/css/utilities/index.scss -> _sass/lib/@primer/css/utilities/index.scss
+./node_modules/@primer/css/utilities/colors.scss -> _sass/lib/@primer/css/utilities/colors.scss
+./node_modules/@primer/css/utilities/flexbox.scss -> _sass/lib/@primer/css/utilities/flexbox.scss
+./node_modules/@primer/css/utilities/details.scss -> _sass/lib/@primer/css/utilities/details.scss
+./node_modules/@primer/css/utilities/layout.scss -> _sass/lib/@primer/css/utilities/layout.scss
+./node_modules/@primer/css/utilities/README.md -> _sass/lib/@primer/css/utilities/README.md
+./node_modules/@primer/css/utilities/typography.scss -> _sass/lib/@primer/css/utilities/typography.scss
+./node_modules/@primer/css/utilities/margin.scss -> _sass/lib/@primer/css/utilities/margin.scss
+./node_modules/@primer/css/utilities/padding.scss -> _sass/lib/@primer/css/utilities/padding.scss
+./node_modules/@primer/css/utilities/box-shadow.scss -> _sass/lib/@primer/css/utilities/box-shadow.scss
+./node_modules/@primer/css/utilities/animations.scss -> _sass/lib/@primer/css/utilities/animations.scss
+_sass/lib/font-awesome
+./node_modules/font-awesome/scss/_icons.scss -> _sass/lib/font-awesome/_icons.scss
+./node_modules/font-awesome/scss/_variables.scss -> _sass/lib/font-awesome/_variables.scss
+_sass/lib/material-design-lite
+./node_modules/material-design-lite/src/_color-definitions.scss -> _sass/lib/material-design-lite/_color-definitions.scss
+./node_modules/material-design-lite/src/_functions.scss -> _sass/lib/material-design-lite/_functions.scss
+./node_modules/material-design-lite/src/_mixins.scss -> _sass/lib/material-design-lite/_mixins.scss
+./node_modules/material-design-lite/src/_variables.scss -> _sass/lib/material-design-lite/_variables.scss
+ERROR: _jvcl_::_sass_rougify./node_modules/dompurify/dist/purify.min.js -> ./assets/lib/purify.min.js
+./node_modules/dompurify/dist/purify.min.js.map -> ./assets/lib/purify.min.js.map
+./node_modules/jquery/dist/jquery.min.js -> ./assets/lib/jquery.min.js
+./node_modules/jquery/dist/jquery.slim.min.js -> ./assets/lib/jquery.slim.min.js
+./node_modules/jquery-migrate/dist/jquery-migrate.min.js -> ./assets/lib/jquery-migrate.min.js
+./node_modules/mathjax-full/es5/tex-svg-full.js -> ./assets/lib/mathjax-full/es5/tex-svg-full.js
+./node_modules/lato-font/fonts/lato-bold/lato-bold.woff -> ./assets/fonts/lato-font/lato-bold.woff
+./node_modules/lato-font/fonts/lato-bold/lato-bold.woff2 -> ./assets/fonts/lato-font/lato-bold.woff2
+./node_modules/lato-font/fonts/lato-bold-italic/lato-bold-italic.woff -> ./assets/fonts/lato-font/lato-bold-italic.woff
+./node_modules/lato-font/fonts/lato-bold-italic/lato-bold-italic.woff2 -> ./assets/fonts/lato-font/lato-bold-italic.woff2
+./node_modules/lato-font/fonts/lato-normal/lato-normal.woff -> ./assets/fonts/lato-font/lato-normal.woff
+./node_modules/lato-font/fonts/lato-normal/lato-normal.woff2 -> ./assets/fonts/lato-font/lato-normal.woff2
+./node_modules/lato-font/fonts/lato-normal-italic/lato-normal-italic.woff -> ./assets/fonts/lato-font/lato-normal-italic.woff
+./node_modules/lato-font/fonts/lato-normal-italic/lato-normal-italic.woff2 -> ./assets/fonts/lato-font/lato-normal-italic.woff2
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Bold.woff -> ./assets/fonts/roboto-fontface/Roboto-Slab-Bold.woff
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Light.woff -> ./assets/fonts/roboto-fontface/Roboto-Slab-Light.woff
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Regular.woff -> ./assets/fonts/roboto-fontface/Roboto-Slab-Regular.woff
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Thin.woff -> ./assets/fonts/roboto-fontface/Roboto-Slab-Thin.woff
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Bold.woff2 -> ./assets/fonts/roboto-fontface/Roboto-Slab-Bold.woff2
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Light.woff2 -> ./assets/fonts/roboto-fontface/Roboto-Slab-Light.woff2
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Regular.woff2 -> ./assets/fonts/roboto-fontface/Roboto-Slab-Regular.woff2
+./node_modules/roboto-fontface/fonts/roboto-slab/Roboto-Slab-Thin.woff2 -> ./assets/fonts/roboto-fontface/Roboto-Slab-Thin.woff2
+./node_modules/font-awesome/fonts/fontawesome-webfont.woff -> ./assets/fonts/font-awesome/fontawesome-webfont.woff
+./node_modules/font-awesome/fonts/fontawesome-webfont.woff2 -> ./assets/fonts/font-awesome/fontawesome-webfont.woff2
+./node_modules/font-awesome/fonts/fontawesome-webfont.eot -> ./assets/fonts/font-awesome/fontawesome-webfont.eot
+./node_modules/font-awesome/fonts/fontawesome-webfont.svg -> ./assets/fonts/font-awesome/fontawesome-webfont.svg
+./node_modules/font-awesome/fonts/fontawesome-webfont.ttf -> ./assets/fonts/font-awesome/fontawesome-webfont.ttf
+Checking formatting...
+Error occurred when checking code style in 8 files.
+asset css/theme.min.css 143 KiB [compared for emit] [minimized] (name: theme) 1 related asset
+asset js/theme.min.js 5.7 KiB [compared for emit] [minimized] (name: theme)
+Entrypoint theme 149 KiB = css/theme.min.css 143 KiB js/theme.min.js 5.7 KiB
+orphan modules 150 KiB (javascript) 856 bytes (runtime) [orphan] 7 modules
+cacheable modules 8.96 KiB (javascript) 147 KiB (css/mini-extract)
+  ./assets/js/theme.js 8.91 KiB [built] [code generated]
+  ./_sass/theme.scss 50 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss 147 KiB [built] [code generated]
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 9, column 20 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/lib/@primer/css/support/variables/colors.scss:9:20:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 28.8679245283%)
+color.adjust($color, $lightness: 3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+9 | $border-gray-light: lighten($gray-200, 3%) !default;
+
+
+_sass/lib/@primer/css/support/variables/colors.scss 10:21  @import
+_sass/lib/@primer/css/support/index.scss 3:9               @import
+_sass/theme.scss 4:9                                       root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 11, column 14 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/_variables.scss:11:14:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 100%)
+color.adjust($color, $lightness: 99%)
+
+More info: https://sass-lang.com/d/color-functions
+
+11 | $theme-white: lighten($black, 99%);
+
+
+_sass/_variables.scss 12:15  @import
+_sass/theme.scss 5:9         root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 12, column 14 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/_variables.scss:12:14:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 17.0758928571%)
+color.adjust($color, $lightness: 15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+12 | $theme-black: lighten($black, 15%);
+
+
+_sass/_variables.scss 13:15  @import
+_sass/theme.scss 5:9         root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 14, column 21 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/lib/@primer/css/support/variables/colors.scss:14:21:
+desaturate() is deprecated. Suggestions:
+
+color.scale($color, $saturation: -58.5858585859%)
+color.adjust($color, $saturation: -40%)
+
+More info: https://sass-lang.com/d/color-functions
+
+14 | $border-green-light: desaturate($green-300, 40%) !default;
+
+
+_sass/lib/@primer/css/support/variables/colors.scss 15:22  @import
+_sass/lib/@primer/css/support/index.scss 3:9               @import
+_sass/theme.scss 4:9                                       root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 26, column 27 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/lib/@primer/css/support/mixins/buttons.scss:26:27:
+This operation is parsed as:
+
+    0 - $em-spacer-5
+
+but you may have intended it to mean:
+
+    0 (-$em-spacer-5)
+
+Add a space after - to clarify that it's meant to be a binary operation, or wrap
+it in parentheses to make it a unary operation. This will be an error in future
+versions of Sass.
+
+More info and automated migrator: https://sass-lang.com/d/strict-unary
+
+26 |       background-position: 0 -$em-spacer-5;
+
+
+_sass/lib/@primer/css/support/mixins/buttons.scss 27:28  @import
+_sass/lib/@primer/css/support/index.scss 10:9            @import
+_sass/theme.scss 4:9                                     root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 40, column 20 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/lib/@primer/css/support/variables/misc.scss:40:20:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -9.8076923077%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+40 | $bg-diffstat-added: darken($green-400, 5%) !default;
+
+
+_sass/lib/@primer/css/support/variables/misc.scss 41:21  @import
+_sass/lib/@primer/css/support/index.scss 5:9             @import
+_sass/theme.scss 4:9                                     root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+Deprecation Warning on line 66, column 27 of file:///Users/julien_vieillefont/GitHub/JV-conseil/jekyll-theme-read-the-docs/_sass/lib/@primer/css/support/mixins/buttons.scss:66:27:
+This operation is parsed as:
+
+    0 - $em-spacer-5
+
+but you may have intended it to mean:
+
+    0 (-$em-spacer-5)
+
+Add a space after - to clarify that it's meant to be a binary operation, or wrap
+it in parentheses to make it a unary operation. This will be an error in future
+versions of Sass.
+
+More info and automated migrator: https://sass-lang.com/d/strict-unary
+
+66 |       background-position: 0 -$em-spacer-5;
+
+
+_sass/lib/@primer/css/support/mixins/buttons.scss 67:28  @import
+_sass/lib/@primer/css/support/index.scss 10:9            @import
+_sass/theme.scss 4:9                                     root stylesheet
+ @ ./_sass/theme.scss
+
+WARNING in ./_sass/theme.scss (./_sass/theme.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs/index.js??ruleSet[1].rules[0].use[2]!./_sass/theme.scss)
+Module Warning (from ./node_modules/sass-loader/dist/cjs/index.js):
+46 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+ @ ./_sass/theme.scss
+
+webpack 5.113.0 compiled with 8 warnings in 984 ms

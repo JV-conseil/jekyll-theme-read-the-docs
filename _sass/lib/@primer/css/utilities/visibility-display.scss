@@ -4,13 +4,19 @@
 @each $breakpoint, $variant in $responsive-variants {
   @include breakpoint($breakpoint) {
     @each $display in $display-values {
-      .d#{$variant}-#{$display} { display: $display !important; }
+      .d#{$variant}-#{$display} {
+        display: $display !important;
+      }
     }
   }
 }
 
-.v-hidden { visibility: hidden !important; }
-.v-visible { visibility: visible !important; }
+.v-hidden {
+  visibility: hidden !important;
+}
+.v-visible {
+  visibility: visible !important;
+}
 
 // Hide utilities for each breakpoint
 // Each hide utility only applies to one breakpoint range.
@@ -39,7 +45,9 @@
 }
 
 /* Set the table-layout to fixed */
-.table-fixed { table-layout: fixed !important; }
+.table-fixed {
+  table-layout: fixed !important;
+}
 
 // Only display content to screen readers
 //

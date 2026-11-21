@@ -1,0 +1,6 @@
+[project]
+authors = [{ name = "JV-conseil", email = "contact@jv-conseil.dev" }]
+dependencies = ["sphinx-rtd-theme==1.*"]
+name = "jekyll-theme-read-the-docs"
+requires-python = ">=3.12"
+version = "2.3"

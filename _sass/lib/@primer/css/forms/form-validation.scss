@@ -276,7 +276,9 @@ dl.form-group > dd, // TODO: Deprecate
     border: $border-width $border-style darken($gray-300, 5%);
   }
 
-  .comment-form-error { margin-bottom: $spacer-2; }
+  .comment-form-error {
+    margin-bottom: $spacer-2;
+  }
 
   .write-content,
   .preview-content {
@@ -322,7 +324,9 @@ div.composer {
 }
 
 // stylelint-disable-next-line primer/spacing
-.composer .tabnav { margin: 0 0 10px; }
+.composer .tabnav {
+  margin: 0 0 10px;
+}
 
 // Misc CSS
 //

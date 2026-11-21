@@ -39,9 +39,9 @@
       "detail": "Run server jekyll serve --config '_config-dev.yml' --livereload"
     },
     {
-      "label": "pipenv",
-      "command": ".bash/osx/pipenv.sh",
-      "detail": "Update your Virtual Environment (VM) for this repository"
+      "label": "uv lock --upgrade",
+      "command": "uv lock --upgrade && uv export --quiet --no-hashes --no-header --no-annotate --format requirements.txt --output-file ./requirements.txt && uv tool run safety scan --key \"${SAFETY_API_KEY}\"",
+      "detail": "upgrade all packages in current environment"
     },
     {
       "label": "yarn",

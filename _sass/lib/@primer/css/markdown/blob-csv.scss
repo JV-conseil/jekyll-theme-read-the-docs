@@ -19,7 +19,9 @@
     border: 0;
   }
 
-  tr { border-top: 0; }
+  tr {
+    border-top: 0;
+  }
 
   th {
     font-weight: $font-weight-bold;

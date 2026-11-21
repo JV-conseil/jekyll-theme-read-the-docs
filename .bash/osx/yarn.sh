@@ -73,13 +73,17 @@ _jvcl_::update_assets() {
 _jvcl_::yarn_update() {
   _jvcl_::h1 "Update Dependencies..."
   npm run yarn-update
-  _jvcl_::_sass_update
-  _jvcl_::_sass_rougify
-  _jvcl_::update_assets
-  _jvcl_::webpack
+  {
+    _jvcl_::_sass_update || printf "ERROR: _jvcl_::_sass_update"
+    _jvcl_::_sass_rougify || printf "ERROR: _jvcl_::_sass_rougify"
+    _jvcl_::update_assets || printf "ERROR: _jvcl_::update_assets"
+    _jvcl_::webpack || printf "ERROR: _jvcl_::webpack"
+  } | tee "./webpack.config.log"
 }
 
-_jvcl_::yarn_update
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  _jvcl_::yarn_update
+fi
 
 # depecated
 

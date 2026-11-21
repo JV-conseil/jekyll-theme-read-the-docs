@@ -31,3 +31,5 @@ action.changelog.md
 # custom
 .DS_Store
 .yarn
+_sass/**/README.md
+assets/**/*LICENSE.txt
