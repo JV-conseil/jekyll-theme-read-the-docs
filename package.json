@@ -4,7 +4,7 @@
     "url": "https://github.com/JV-conseil/jekyll-theme-read-the-docs/issues"
   },
   "dependencies": {
-    "@primer/css": "15.2.0",
+    "@primer/css": "22.3.3",
     "cross-spawn": "^7.0.6",
     "dompurify": "^3.4.18",
     "font-awesome": "^4.7.0",
@@ -21,7 +21,7 @@
     "scss": "^0.2.4"
   },
   "resolutions": {
-    "@primer/css": "15.2.0"
+    "@primer/css": "22.3.3"
   },
   "description": "Read the Docs like Jekyll Theme for GitHub Pages",
   "devDependencies": {
