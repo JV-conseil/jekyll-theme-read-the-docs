@@ -1927,23 +1927,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/css@npm:15.2.0":
-  version: 15.2.0
-  resolution: "@primer/css@npm:15.2.0"
-  dependencies:
-    "@primer/octicons": "npm:^9.1.1"
-  bin:
-    primer-migrate: bin/primer-migrate
-  checksum: 10c0/b205efc59dc9f889eee9129719eb3aba05d181c7e367dbaf30fd21f90acb208ba49e56d3e65189bd36c259b0254e068e1c61b45235dfd245cdac55ca169b5e94
-  languageName: node
-  linkType: hard
-
-"@primer/octicons@npm:^9.1.1":
-  version: 9.6.0
-  resolution: "@primer/octicons@npm:9.6.0"
-  dependencies:
-    object-assign: "npm:^4.1.1"
-  checksum: 10c0/e2812df61b7c1edb96593c07d276348a0c8812d1e0733c6fc5a63af380affaf50fa7253e6048c859f223769925b78b43bfa2f165364512e0b3ebd82e8b7ba7d4
+"@primer/css@npm:22.3.3":
+  version: 22.3.3
+  resolution: "@primer/css@npm:22.3.3"
+  peerDependencies:
+    "@primer/primitives": 10.x || 11.x
+  checksum: 10c0/490e4c1522b8d790b3f905481d1839770968bab776ddea593b8c342d8aabc38a969ae1f9cb75762274482b75beb3e2d29131293f221e9ece91f88644a487cb94
   languageName: node
   linkType: hard
 
@@ -4941,7 +4930,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^8.1.3"
     "@babel/preset-env": "npm:^8.0.7"
-    "@primer/css": "npm:15.2.0"
+    "@primer/css": "npm:22.3.3"
     babel-loader: "npm:^10.1.1"
     cross-spawn: "npm:^7.0.6"
     css-loader: "npm:^7.1.5"
@@ -5777,13 +5766,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 10c0/9bd7198df6f16eb29ff16892c77bcf7f0cc41f9fb5c26280ac0def2cf8cf319f3b821b3af83eba0e74c85807cc430a16efe0db58fe6ae1f41e69519f585b6aff
-  languageName: node
-  linkType: hard
-
-"object-assign@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "object-assign@npm:4.1.1"
-  checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
   languageName: node
   linkType: hard
 
